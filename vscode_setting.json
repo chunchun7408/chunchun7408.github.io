@@ -1,0 +1,65 @@
+{
+    "window.zoomLevel": 0,
+    "px-to-rem.px-per-rem": 75,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    // "beautify.language": {
+    //     "js": {
+    //         "type": [
+    //             "javascript",
+    //             "json",
+    //             "jsonc"
+    //         ],
+    //         "filename": [
+    //             ".jshintrc",
+    //             ".jsbeautifyrc"
+    //         ]
+    //     },
+    //     "css": [
+    //         "css",
+    //         "scss"
+    //     ],
+    //     "html": [
+    //         "htm",
+    //         "html",
+    //         "vue"
+    //     ]
+    // },
+    "prettier.eslintIntegration": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "vue": "html",
+        "plaintext": "jade"
+    },
+    "eslint.validate": [
+        "javascript", 
+        "javascriptreact", {
+            "language": "vue",
+            "autoFix": true
+        },
+        "html"
+    ],
+    "eslint.options": {
+        "extensions": [".js", ".vue"]
+    },
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "printWidth": 100, // No line exceeds 100 characters
+            "singleQuote": false // Prefer double quotes over single quotes
+        }
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "liquid.format": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
